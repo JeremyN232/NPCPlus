@@ -22,8 +22,11 @@ namespace Pattern.FactoryMethod
             m_Shopowner = m_Factory.GetNPC(NPCType.Shopowner);
 
             m_Beggar.Speak();
+            m_Beggar.spawn();
             m_Farmer.Speak();
+            m_Farmer.spawn();
             m_Shopowner.Speak();
+            m_Shopowner.spawn();
         }
     }
 }

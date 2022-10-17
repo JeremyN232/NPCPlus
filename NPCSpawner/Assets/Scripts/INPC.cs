@@ -3,5 +3,6 @@
     public interface INPC
     {
         void Speak();
+        void spawn();
     }
 }
