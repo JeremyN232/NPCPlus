@@ -4,7 +4,7 @@ namespace Pattern.FactoryMethod
 {
     public class Shopowner : INPC
     {
-        GameObject ShopObj = GameObject.Find("Shopowner");
+        //GameObject ShopObj = GameObject.Find("Shopowner");
 
         public void Speak()
         {
@@ -13,7 +13,14 @@ namespace Pattern.FactoryMethod
 
         public void spawn()
         {
-            ShopObj.GetComponent<Renderer>().enabled = true;
+            foreach (GameObject ShopObj in GameObject.FindGameObjectsWithTag("ShopOwner"))
+             {
+                Renderer renderer = ShopObj.GetComponent<Renderer>();
+                if (renderer != null)
+                {
+                    renderer.enabled = true;
+                }
+             }
         }
     }
 }

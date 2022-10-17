@@ -41,11 +41,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 28212}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 28218}
+      Script: {instanceID: 6246}
     - Class: 114
-      Script: {instanceID: 28226}
+      Script: {instanceID: 8274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -187,6 +187,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c0c93f91e03df84aa047fcc81f5221d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pattern.FactoryMethod
+    className: Client
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -615,6 +621,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Pattern.FactoryMethod
+    className: NPCFactory
+  - hash:
+      serializedVersion: 2
       Hash: e09e8bebc0fcd32bb8af1287a6b44816
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -831,18 +843,6 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Unity.VisualScripting.Core.dll
-    namespaceName: Unity.VisualScripting
-    className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c0c93f91e03df84aa047fcc81f5221d2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Pattern.FactoryMethod
-    className: Client
-  - hash:
-      serializedVersion: 2
       Hash: ce0e0c569a2cc1744a8bdaec6dc1ce34
     assemblyName: Assembly-CSharp.dll
     namespaceName: Pattern.FactoryMethod
@@ -850,10 +850,10 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Pattern.FactoryMethod
-    className: NPCFactory
+    assemblyName: Unity.VisualScripting.Core.dll
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
   platform: 20
   scenePathNames:
   - Assets/Scenes/FactoryMethod.unity
-  playerPath: C:/Users/njere/Documents/GitHub/NPCSpawner/SpawnBuild
+  playerPath: C:/Users/njere/Documents/GitHub/NPCPlus/NPCPlusBuild

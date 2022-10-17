@@ -274,6 +274,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_SendMessage();
 		Register_UnityEngine_GameObject_SendMessage();
 
+		//UnityEngine.Component UnityEngine.GameObject::GetComponent(System.Type)
+		void Register_UnityEngine_GameObject_GetComponent();
+		Register_UnityEngine_GameObject_GetComponent();
+
+		//UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
+		void Register_UnityEngine_GameObject_FindGameObjectsWithTag();
+		Register_UnityEngine_GameObject_FindGameObjectsWithTag();
+
 	//End Registrations for type : UnityEngine.GameObject
 
 	//Start Registrations for type : UnityEngine.Gradient
@@ -735,6 +743,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_RectOffset_InternalDestroy();
 
 	//End Registrations for type : UnityEngine.RectOffset
+
+	//Start Registrations for type : UnityEngine.Renderer
+
+		//System.Void UnityEngine.Renderer::set_enabled(System.Boolean)
+		void Register_UnityEngine_Renderer_set_enabled();
+		Register_UnityEngine_Renderer_set_enabled();
+
+	//End Registrations for type : UnityEngine.Renderer
 
 	//Start Registrations for type : UnityEngine.Rendering.GraphicsSettings
 

@@ -49,6 +49,8 @@ UnityEngine.Experimental.Rendering.GraphicsFormatUtility::GetGraphicsFormat_Nati
 UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemSettings::ScriptingDirtyReflectionSystemInstance
 UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
+UnityEngine.GameObject::GetComponent
+UnityEngine.GameObject::FindGameObjectsWithTag
 UnityEngine.Gradient::Internal_Equals
 UnityEngine.Gradient::Init
 UnityEngine.Gradient::Cleanup
@@ -145,6 +147,7 @@ UnityEngine.RectOffset::get_top
 UnityEngine.RectOffset::get_vertical
 UnityEngine.RectOffset::InternalCreate
 UnityEngine.RectOffset::InternalDestroy
+UnityEngine.Renderer::set_enabled
 UnityEngine.Rendering.GraphicsSettings::get_lightsUseLinearIntensity
 UnityEngine.Rendering.ScriptableRenderContext::GetCameras_Internal_Injected
 UnityEngine.RenderTexture::GetDescriptor_Injected

@@ -5,7 +5,7 @@ namespace Pattern.FactoryMethod
     public class Farmer : INPC
     {
 
-        GameObject FarmerObj = GameObject.Find("Farmer");
+        //GameObject FarmerObj = GameObject.Find("Farmer");
 
         public void Speak()
         {
@@ -14,7 +14,14 @@ namespace Pattern.FactoryMethod
 
         public void spawn()
         {
-            FarmerObj.GetComponent<Renderer>().enabled = true;
+            foreach (GameObject FarmerObj in GameObject.FindGameObjectsWithTag("Farmer"))
+             {
+                Renderer renderer = FarmerObj.GetComponent<Renderer>();
+                if (renderer != null)
+                {
+                    renderer.enabled = true;
+                }
+             }
         }
     }
 }
