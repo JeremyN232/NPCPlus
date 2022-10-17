@@ -4,7 +4,8 @@ namespace Pattern.FactoryMethod
 {
     public class Beggar : INPC
     {
-        GameObject BeggarObj = GameObject.FindGameObjectWithTag("Beggar");
+        GameObject BeggarObj = GameObject.Find("Beggar");
+        
 
         public void Speak()
         {
@@ -13,7 +14,7 @@ namespace Pattern.FactoryMethod
 
         public void spawn()
         {
-            BeggarObj.SetActive(true);
+            BeggarObj.GetComponent<Renderer>().enabled = true;
         }
     }
 }

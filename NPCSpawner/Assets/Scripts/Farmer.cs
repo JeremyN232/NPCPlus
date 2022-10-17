@@ -14,7 +14,7 @@ namespace Pattern.FactoryMethod
 
         public void spawn()
         {
-            FarmerObj.SetActive(true);
+            FarmerObj.GetComponent<Renderer>().enabled = true;
         }
     }
 }

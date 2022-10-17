@@ -4,7 +4,7 @@ namespace Pattern.FactoryMethod
 {
     public class Shopowner : INPC
     {
-        GameObject ShopObj = GameObject.Find("ShopOwner");
+        GameObject ShopObj = GameObject.Find("Shopowner");
 
         public void Speak()
         {
@@ -13,7 +13,7 @@ namespace Pattern.FactoryMethod
 
         public void spawn()
         {
-            ShopObj.SetActive(true);
+            ShopObj.GetComponent<Renderer>().enabled = true;
         }
     }
 }

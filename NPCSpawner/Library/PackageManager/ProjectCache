@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638015779196361315
-    m_Hash: 1071124706
+      ticks: 638016214264859025
+    m_Hash: 3611920377
   m_LockFileStatus:
     m_FilePath: C:/Users/njere/Documents/GitHub/NPCPlus/NPCSpawner/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638015779697186839
-    m_Hash: 2593603777
+      ticks: 638016214264869034
+    m_Hash: 3793744847
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -95,7 +95,6 @@ m_ResolvedPackages:
     - 1.17.0
     - 1.17.1
     - 1.17.2
-    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -109,7 +108,6 @@ m_ResolvedPackages:
     compatible:
     - 1.17.1
     - 1.17.2
-    - 1.17.6
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -120,7 +118,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.6
+    verified: 1.17.2
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -306,11 +304,9 @@ m_ResolvedPackages:
     - 3.0.13
     - 3.0.14
     - 3.0.15
-    - 3.0.16
     compatible:
     - 3.0.15
-    - 3.0.16
-    verified: 3.0.16
+    verified: 3.0.15
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
